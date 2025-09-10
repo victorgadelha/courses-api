@@ -15,6 +15,34 @@
       "when": 1755468532920,
       "tag": "0001_nifty_shaman",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1757187082884,
+      "tag": "0002_sharp_puff_adder",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1757187275269,
+      "tag": "0003_rare_pepper_potts",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1757460136716,
+      "tag": "0004_slippery_logan",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1757462317263,
+      "tag": "0005_glossy_yellow_claw",
+      "breakpoints": true
     }
   ]
 }

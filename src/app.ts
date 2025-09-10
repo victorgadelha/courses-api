@@ -7,9 +7,9 @@ import {
   type ZodTypeProvider,
   jsonSchemaTransform,
 } from "fastify-type-provider-zod";
-import { createCourseRoute } from "./src/routes/create-course.ts";
-import { getCoursesRoute } from "./src/routes/get-courses.ts";
-import { getCourseByIdRoute } from "./src/routes/get-course-by-id.ts";
+import { createCourseRoute } from "./routes/create-course.ts";
+import { getCoursesRoute } from "./routes/get-courses.ts";
+import { getCourseByIdRoute } from "./routes/get-course-by-id.ts";
 
 const server = fastify({
   logger: {
@@ -46,15 +46,4 @@ server.register(createCourseRoute);
 server.register(getCoursesRoute);
 server.register(getCourseByIdRoute);
 
-const start = async () => {
-  try {
-    const port = 3333;
-    await server.listen({ port });
-    console.log(`O servidor está rodando em http://localhost:${port}`);
-  } catch (error) {
-    console.error("Erro ao iniciar o servidor:", error);
-    process.exit(1);
-  }
-};
-
-start();
+export { server };
