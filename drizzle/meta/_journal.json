@@ -43,6 +43,13 @@
       "when": 1757462317263,
       "tag": "0005_glossy_yellow_claw",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1757898349627,
+      "tag": "0006_orange_dexter_bennett",
+      "breakpoints": true
     }
   ]
 }

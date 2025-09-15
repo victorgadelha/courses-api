@@ -1,10 +1,23 @@
 GET http://localhost:3333/courses
 ###
-GET http://localhost:3333/courses/db97cf50-dedc-49e2-b073-e8cc381d35f7
+
+GET http://localhost:3333/courses/b48e71b8-a190-4eb2-8fa0-ed5bda1594f0
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3ODUwOWQzMS1iNzQ0LTQ5Y2YtODRhNC0yZTg1N2ZhNzc4ZmIiLCJyb2xlIjoic3R1ZGVudCIsImlhdCI6MTc1NzkwMjczNX0.C2yrmty2fHgy_h156-gIFynBkP-04Kyt-BFoZTIIED8
+
 ###
 POST http://localhost:3333/courses
 Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3ODUwOWQzMS1iNzQ0LTQ5Y2YtODRhNC0yZTg1N2ZhNzc4ZmIiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTc1NzkwNDE4OX0.1f3xI6Fk8s1ToeOJDpZLbxNHGCBR0Tnv0IXOqKMaNY0
 
 {
-    "title": "Curso de hono"
+    "title": "Curso de seila"
+}
+###
+
+POST http://localhost:3333/sessions
+Content-Type: application/json
+
+{
+    "email": "Joaquim_Nogueira@gmail.com",
+    "password": "123456"
 }
